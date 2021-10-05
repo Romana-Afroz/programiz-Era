@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import img from '../../images/bg1.jpg'
+import img1 from '../../images/bg2.jpg'
+import img2 from '../../images/bg3.jpg'
 import Service from '../Service/Service';
 import './Home.css';
 const Home = (props) => {
@@ -32,28 +34,28 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-          {/* <div className="carousel-item ">
-          <img src={img} alt="" />
+           <div className="carousel-item ">
+          <img src={img1} alt="" />
 
             <div className="container">
               <div className="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                <p><a className="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                <h1> Programiz Era</h1>
+                <p>"The only way to learn a new programming language is by writing programs in it.".</p>
+                <p><a className="btn btn-lg btn-dark" href="#">Learn more</a></p>
               </div>
             </div>
-          </div> */}
-          {/* <div className="carousel-item">
-          <img src={img} alt="" />
+          </div> 
+           <div className="carousel-item ">
+          <img src={img2} alt="" />
 
             <div className="container">
               <div className="carousel-caption text-end">
                 <h1>One more for good measure.</h1>
-                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                <p><a className="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                <p>"Sometimes it's better to leave something alone, to pause, and that's very true of programming." .</p>
+                <p><a className="btn btn-lg btn-dark" href="#">Browse gallery</a></p>
               </div>
             </div>
-          </div> */}
+          </div> 
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
