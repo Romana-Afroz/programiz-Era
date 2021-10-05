@@ -1,9 +1,10 @@
-/* body{
-    background-color: #25274d;
+body{
+    background-color: #a2caeb;
+
 }
 .contact{
     padding: 4%;
-    height: 400px;
+    height: 600px;
 }
 .col-md-3{
     background: #ff9b00;
@@ -37,4 +38,4 @@
 }
 .contact-form button:focus{
     box-shadow:none;
-} */
+}

@@ -6,7 +6,7 @@ export default function Header() {
         <div>
             <nav className="navbar navbar-expand-lg navbar-light">
   <div className="container">
-    <Link className="navbar-brand" to="/">Tech-Era</Link>
+    <Link className="navbar-brand" to="/">Programiz-Era</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -22,7 +22,7 @@ export default function Header() {
           <Link className="nav-link active" aria-current="page" to="/Services">Services</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/Contact Us">Contact Us</Link>
+          <Link className="nav-link active" aria-current="page" to="/contact">Contact Us</Link>
         </li>
          
       </ul> 

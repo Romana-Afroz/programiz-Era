@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
-import img from '../../images/home.jpg'
+import img from '../../images/bg1.jpg'
 import Service from '../Service/Service';
 import './Home.css';
 const Home = () => {
@@ -25,8 +25,8 @@ const Home = () => {
 
         <div className="container">
           <div className="carousel-caption text-start">
-            <h1 className="text">Tech Era</h1>
-            <p className="text">Suitable for all educational web, LMS, Training Center, College, Academy, University etc.</p>
+            <h1 className="text">Programiz Era</h1>
+            <h3 className="text">“Programming isn’t about what you know; it’s about what you can figure out.” — Chris Pine.</h3>
             <p><Link className="btn btn-lg btn-dark" to="/home">Sign up</Link></p>
           </div>
         </div>

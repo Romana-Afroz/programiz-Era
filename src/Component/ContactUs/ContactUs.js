@@ -4,9 +4,7 @@ import './ContactUs.css';
 export default function ContactUs() {
     return (
         <div>
-            <h1>thia is contact</h1>
-
-
+			
 <div className="container contact">
 	<div className="row">
 		<div className="col-md-3">
@@ -44,7 +42,7 @@ export default function ContactUs() {
 				</div>
 				<div className="form-group">        
 				  <div className="col-sm-offset-2 col-sm-10">
-					<button type="submit" className="btn btn-default">Submit</button>
+					<button type="submit" className="btn btn-default mt-4">Submit</button>
 				  </div>
 				</div>
 			</div>

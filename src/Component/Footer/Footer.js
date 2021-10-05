@@ -11,36 +11,36 @@ export default function Footer() {
   <footer className="py-5 ps-5">
     <div className="row">
       <div className="col-2">
-        <h5>Section</h5>
+        <h5>Company</h5>
 
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><Link to="/Home" className="nav-link p-0 text">Home</Link></li>
-          <li className="nav-item mb-2"><Link to="/Featurs" className="nav-link p-0 text">Featurs</Link></li>
-          <li className="nav-item mb-2"><Link to="/Pricing" className="nav-link p-0 text">Pricing</Link></li>
+          <li className="nav-item mb-2"><Link to="/Home" className="nav-link p-0 text">About</Link></li>
+          <li className="nav-item mb-2"><Link to="/Featurs" className="nav-link p-0 text">Advertising</Link></li>
+          <li className="nav-item mb-2"><Link to="/Pricing" className="nav-link p-0 text">Privacy Policy</Link></li>
           <li className="nav-item mb-2"><Link to="/FAQs" className="nav-link p-0 text">FAQs</Link></li>
-          <li className="nav-item mb-2"><Link to="/About" className="nav-link p-0 text">About</Link></li>
+          <li className="nav-item mb-2"><Link to="/About" className="nav-link p-0 text">Terms & Conditions</Link></li>
         </ul>
       </div>
 
       <div className="col-2">
-        <h5>Menu</h5>
+        <h5>Tutorial</h5>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><Link to="/Home" className="nav-link p-0 text">Home</Link></li>
-          <li className="nav-item mb-2"><Link to="/Features" className="nav-link p-0 text">Features</Link></li>
-          <li className="nav-item mb-2"><Link to="/Pricing" className="nav-link p-0 text">Pricing</Link></li>
-          <li className="nav-item mb-2"><Link to="/FAQs" className="nav-link p-0 text">FAQs</Link></li>
-          <li className="nav-item mb-2"><Link to="/About" className="nav-link p-0 text">About</Link></li>
+          <li className="nav-item mb-2"><Link to="/Home" className="nav-link p-0 text">ML Tutoraial</Link></li>
+          <li className="nav-item mb-2"><Link to="/Features" className="nav-link p-0 text">DSA Tutorial</Link></li>
+          <li className="nav-item mb-2"><Link to="/Pricing" className="nav-link p-0 text">Python 3 Tutorial</Link></li>
+          <li className="nav-item mb-2"><Link to="/FAQs" className="nav-link p-0 text">Swift Tutorial</Link></li>
+          <li className="nav-item mb-2"><Link to="/About" className="nav-link p-0 text">Dark Web Tutorial</Link></li>
         </ul>
       </div>
 
       <div className="col-2">
-        <h5>Section</h5>
+        <h5>Apps</h5>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><Link to="/Home" className="nav-link p-0 text-muted">Home</Link></li>
-          <li className="nav-item mb-2"><Link to="/Features" className="nav-link p-0 text-muted">Features</Link></li>
-          <li className="nav-item mb-2"><Link to="/Pricing" className="nav-link p-0 text-muted">Pricing</Link></li>
-          <li className="nav-item mb-2"><Link to="/FAQs" className="nav-link p-0 text-muted">FAQs</Link></li>
-          <li className="nav-item mb-2"><Link to="/About" className="nav-link p-0 text-muted">About</Link></li>
+          <li className="nav-item mb-2"><Link to="/Home" className="nav-link p-0 text-muted">Learn Python</Link></li>
+          <li className="nav-item mb-2"><Link to="/Features" className="nav-link p-0 text-muted">Learn Machine Learning</Link></li>
+          <li className="nav-item mb-2"><Link to="/Pricing" className="nav-link p-0 text-muted">Learning AI</Link></li>
+          <li className="nav-item mb-2"><Link to="/FAQs" className="nav-link p-0 text-muted">Learning Ruby </Link></li>
+          <li className="nav-item mb-2"><Link to="/About" className="nav-link p-0 text-muted">Learning Data Science</Link></li>
         </ul>
       </div>
 
