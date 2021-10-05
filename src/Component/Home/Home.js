@@ -1,3 +1,4 @@
+// for home part
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import img from '../../images/bg1.jpg'
@@ -34,8 +35,8 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-           <div className="carousel-item ">
-          <img src={img1} alt="" />
+          <div className="carousel-item ">
+            <img src={img1} alt="" />
 
             <div className="container">
               <div className="carousel-caption">
@@ -44,9 +45,9 @@ const Home = (props) => {
                 <p><a className="btn btn-lg btn-dark" href="#">Learn more</a></p>
               </div>
             </div>
-          </div> 
-           <div className="carousel-item ">
-          <img src={img2} alt="" />
+          </div>
+          <div className="carousel-item ">
+            <img src={img2} alt="" />
 
             <div className="container">
               <div className="carousel-caption text-end">
@@ -55,7 +56,7 @@ const Home = (props) => {
                 <p><a className="btn btn-lg btn-dark" href="#">Browse gallery</a></p>
               </div>
             </div>
-          </div> 
+          </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -68,24 +69,24 @@ const Home = (props) => {
         <div >
           <h3>Services : {service.length}</h3>
           <h3>Popular Services</h3>
-         <div className="row">
-         {
-            service.length ? (
-              array?.map(item =>{
-             const serb =service[item]
-             return(
-              <Service
-              key={serb._id}
-              service={serb}
-            ></Service>   
-             )
-              })
-                
-            ) : (
-              <h1>No result Found</h1>
-            )
-          }
-         </div>
+          <div className="row">
+            {
+              service.length ? (
+                array?.map(item => {
+                  const serb = service[item]
+                  return (
+                    <Service
+                      key={serb._id}
+                      service={serb}
+                    ></Service>
+                  )
+                })
+
+              ) : (
+                <h1>No result Found</h1>
+              )
+            }
+          </div>
         </div>
       </div>
     </div>

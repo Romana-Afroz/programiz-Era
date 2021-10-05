@@ -1,3 +1,4 @@
+// for Error showing part
 import React from 'react'
 import img from '../../images/404Error.gif'
 const NotFound = () => {

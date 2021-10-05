@@ -1,3 +1,4 @@
+// for service part
 import { Link } from "react-router-dom";
 import './Service.css';
 const Service = (props) => {
@@ -15,11 +16,11 @@ const Service = (props) => {
             </div>
 
             <div className="card-body">
-            <h5 className="card-title">{courseTitel}</h5>
-              
+                <h5 className="card-title">{courseTitel}</h5>
+
             </div>
             <div className="card-footer">
-             <Link to="/services">
+                <Link to="/services">
                     <button type="button" className=" btn btn-dark">More Details</button>
                 </Link>
             </div>

@@ -1,3 +1,4 @@
+// for Appjs main part
 import './App.css';
 import Header from './Component/Header/Header';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';

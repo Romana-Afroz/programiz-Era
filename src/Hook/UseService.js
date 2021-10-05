@@ -1,3 +1,4 @@
+// for useService part
 import { useEffect, useState } from "react";
 const UseService = () =>{
     const [service,setService] = useState([]);
