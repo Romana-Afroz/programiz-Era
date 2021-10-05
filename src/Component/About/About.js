@@ -4,12 +4,15 @@ export default function About() {
     return (
         <div>
            <div className="about-section">
-  <h1>About Us</h1>
-  <p>Some text about who we are and what we do.</p>
-  <p>Resize the browser window to see that this page is responsive by the way.</p>
+  <h1>Our Vison</h1>
+  <p>We envision a world where anyone, anywhere has the power to transform their life through learning.</p>
+  <h3>Our Story</h3>
+  <p>Programiz-Era was founded by Jane Doe and Andrew Ng in 2012 with a vision of providing life-transforming learning experiences to learners around the world. Today, Coursera is a global online learning platform that offers anyone, anywhere, access to online courses and degrees from leading universities and companies. Coursera received B Corp certification in February 2021, which means that we have a legal duty not only to our shareholders, but to also make a positive impact on society more broadly, as we continue our efforts to reduce barriers to world-class education for all.
+
+82 million learners, 100+ Fortune 500 companies, and more than 6,000 campuses, businesses, and governments come to Coursera to access world-class learning—anytime, anywhere..</p>
 </div>
 
-<h2 className="text-align:center">Our Team</h2>
+<h1 className="center">Our Team</h1>
 
  <div className="row">
     <div className="col-lg-4">

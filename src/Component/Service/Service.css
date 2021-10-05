@@ -1,8 +1,15 @@
-/* .img-size{
+ /* /* .img-size{
     height: 150px;
-    width: 150px;
-    display:inline-block;
-}
+    width: 100%;
+     display:inline-block;
+  } */
+
+/* 
 .servic h3{
     text-align: center;
 }  */
+.card{
+    width: 360px;
+    padding-top: 10px;
+
+}

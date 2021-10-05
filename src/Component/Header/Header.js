@@ -1,12 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Header.css';
+import img from '../../images/pg.png'
 export default function Header() {
     return (
-        <div>
+        <div className="pt-3">
             <nav className="navbar navbar-expand-lg navbar-light">
   <div className="container">
-    <Link className="navbar-brand" to="/">Programiz-Era</Link>
+    <Link className="navbar-brand" to="/">
+    
+   <img classNameName="img-size img-fluid"  src={img} width="180px" alt="" />
+                
+    </Link>
+    
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

@@ -11,16 +11,17 @@ import NotFound from  './Component/NotFound/NotFound';
 
 
 function App() {
+  const array =[0,1,2]
   return (
-    <div>
+    <div className="App">
     <Router>
     <Header></Header>
     <Switch>
     <Route exact path="/">
-     <Home></Home>
+     <Home array={array}></Home>
     </Route>
     <Route path="/home">
-      <Home></Home>
+      <Home array={array}></Home>
     </Route>
     <Route path="/about">
       <About></About>

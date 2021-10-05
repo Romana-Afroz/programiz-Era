@@ -7,7 +7,7 @@ export default function ContactUs() {
 			
 <div className="container contact">
 	<div className="row">
-		<div className="col-md-3">
+		<div className="col">
 			<div className="contact-info">
 				<img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
 				<h2>Contact Us</h2>

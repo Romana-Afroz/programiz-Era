@@ -1,12 +1,12 @@
 body{
-    background-color: #a2caeb;
+    background-color:#8cbdeb;
 
 }
 .contact{
     padding: 4%;
     height: 600px;
 }
-.col-md-3{
+.col{
     background: #ff9b00;
     padding: 4%;
     border-top-left-radius: 0.5rem;

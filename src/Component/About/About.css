@@ -28,7 +28,9 @@
 .title {
   color: grey;
 }
-
+.center{
+  text-align: center;
+}
 .button {
   border: none;
   outline: 0;

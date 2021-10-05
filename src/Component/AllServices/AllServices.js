@@ -3,11 +3,9 @@ const AllServices=(props) => {
     const { img, description, Details,  courseTitel, courseInstructor, courseFee, catagory}=props.service 
     return(
                 
- <div className="album py-5 bg-light">
-  <div>
-      <div>
-          
-        <div className="card shadow-sm">
+
+<div>     
+        <div className="card shadow-sm p-2">
           <img className=" card-img-top" src={img} alt="..."/>
 
           <div className="card-body">
@@ -29,9 +27,8 @@ const AllServices=(props) => {
         
            
       </div>
-      </div>
-     </div>
-     
+      
+
        
     );
     
