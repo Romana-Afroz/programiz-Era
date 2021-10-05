@@ -13,7 +13,7 @@ const Home = (props) => {
   }, [])
 
   return (
-    <div className="container-fluid pt-4">
+    <div className="container-fluid pt-3">
       <div id="myCarousel" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -32,8 +32,8 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-          <div className="carousel-item">
-            <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777" /></svg>
+          {/* <div className="carousel-item ">
+          <img src={img} alt="" />
 
             <div className="container">
               <div className="carousel-caption">
@@ -42,9 +42,9 @@ const Home = (props) => {
                 <p><a className="btn btn-lg btn-primary" href="#">Learn more</a></p>
               </div>
             </div>
-          </div>
-          <div className="carousel-item">
-            <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777" /></svg>
+          </div> */}
+          {/* <div className="carousel-item">
+          <img src={img} alt="" />
 
             <div className="container">
               <div className="carousel-caption text-end">
@@ -53,20 +53,19 @@ const Home = (props) => {
                 <p><a className="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
         </button>
         <button className="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
         </button>
       </div>
       <div className="container">
         <div >
           <h3>Services : {service.length}</h3>
+          <h3>Popular Services</h3>
          <div className="row">
          {
             service.length ? (

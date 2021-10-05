@@ -7,7 +7,7 @@ const Service = (props) => {
     return (
 
 
-        <div className="card col-md-3 col-12">
+        <div className="card-feature col-md-3 col-12">
             <div>
                 <Link to="/services">
                     <img classNameName="img-size img-fluid" width="336px" src={img} alt="" />

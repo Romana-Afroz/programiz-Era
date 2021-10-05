@@ -7,10 +7,11 @@ body{
     height: 600px;
 }
 .col{
-    background: #ff9b00;
+    background: #25274d;
     padding: 4%;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
+    color: white;
 }
 .contact-info{
     margin-top:10%;
